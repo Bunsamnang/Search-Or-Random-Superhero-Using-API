@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 30px;
+}
+
+.hero-image-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  gap: 30px;
+}
+
+figure {
+  width: 300px;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+figcaption {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+figure .power-stats {
+  text-align: center;
+}
+
+input,
+button {
+  padding: 10px 20px;
+  border: none;
+  box-shadow: -3px -3px 4px rgb(240, 240, 240), 3px 3px 4px rgba(0, 0, 0, 0.5);
+
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  background-color: rgb(103, 37, 164);
+  color: white;
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+button:active {
+  transform: scale(0.9);
+}
